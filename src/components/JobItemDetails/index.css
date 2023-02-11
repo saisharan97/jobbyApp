@@ -1,0 +1,84 @@
+* {
+  color: white;
+}
+
+.job-details-item-container {
+  background-color: #202020;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.job-item-img-container {
+  display: flex;
+}
+
+.job-item-img-prop {
+  height: 100px;
+  margin-right: 10px;
+  align-self: center;
+  justify-self: center;
+}
+
+.job-item-heading {
+  font-size: 15px;
+}
+
+.react-icon {
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.visit-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  /* width: 100px; */
+}
+
+.skill-container {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+}
+
+.skill-item-container {
+  display: flex;
+  margin: 10px;
+  width: 15vw;
+}
+
+.skill-img-prop {
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.life-at-company-container {
+  display: flex;
+}
+
+.similar-job-item-container {
+  background-color: #202020;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 30px;
+  margin-top: 30px;
+  width: 25vw;
+}
+
+.similar-jobs-container {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
